@@ -7,7 +7,7 @@
 
 namespace HDE 
 {
-class ListeningSocket: BindingSocket
+class ListeningSocket: public BindingSocket
 {
 private:
     int backlog;    

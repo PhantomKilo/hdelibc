@@ -2,6 +2,7 @@
 #define TestServer_hpp
 
 #include <stdio.h>
+#include <cstring>
 
 #include "SimpleServer.hpp"
 

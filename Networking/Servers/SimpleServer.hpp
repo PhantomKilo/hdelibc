@@ -2,12 +2,13 @@
 #define SimpleServer_cpp
 
 #include <stdio.h>
+#include <unistd.h>
 
 #include "../Sockets/hdelibc-sockets.hpp"
 
 namespace HDE
 {
-class SimpleServer
+class SimpleServer 
 {
 private:
     ListeningSocket * socket;
